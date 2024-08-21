@@ -16,14 +16,20 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  margin: 0;
+  height: 100%;
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
@@ -31,3 +37,4 @@ body {
     text-wrap: balance;
   }
 }
+
